@@ -37,8 +37,8 @@ const sendmail = async (req, res) => {
 };
 
 // from gmail
-const EMAIL="nnope4086@gmail.com";
-const PASSWORD='emyh onxz szby xnme';
+const EMAIL="";
+const PASSWORD='';
 const sendFromGmail = async (req, res) => {
   const { userEmail } = req.body;
   let config = {
